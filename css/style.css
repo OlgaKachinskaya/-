@@ -29,24 +29,49 @@ strong, h1, h2, h3, h4, h5 {
     align-items: center;
 }
 .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.7)
 }
 .header a {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+   
+}
+.logo {
+    color: aqua;
 }
 .navigation {
     max-width: 50%;
     width: 100%;
 }
+.nav__link {
+    color: orangered;
+}
 .promo {
-    margin-top: 300px;
-    padding-bottom: 300px;
+    position: relative;
+    margin-top: -61px;
+    padding-top: 400px;
+    padding-bottom: 350px;
     background: url('../img/2033-001.jpg') no-repeat center / cover;
 }
+.promo::after {
+position: absolute;
+content: '';
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.4);
+}
 .promo__block {
+    position: relative;
+    z-index: 999;   
     max-width: 650px;
     flex-direction: column;
     align-items: start;
