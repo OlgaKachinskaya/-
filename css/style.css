@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(../fonts/Ubuntu-Regular.ttf)
+}
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+font-family: 'Ubuntu-Regular', sans-serif;
+font-size: 14px;
+}
+strong, h1, h2, h3, h4, h5 {
+    font-family: 'Ubuntu-Bolt', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.flex-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navigation {
+    max-width: 50%;
+    width: 100%;
+}
+.promo {
+    margin-top: 300px;
+    padding-bottom: 300px;
+    background: url('../img/2033-001.jpg') no-repeat center / cover;
+}
+.promo__block {
+    max-width: 650px;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 250px;
+}
