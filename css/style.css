@@ -120,6 +120,36 @@ margin-bottom: 20px;
 .algoritm__block {
     flex-direction: column;
 }
+.info {
+    background: rgba(0, 0, 0, 1);
+    color:aliceblue;
+    font-size: 18px;
+}
+.info-section__block {
+    flex-direction: column;
+
+}
+.target {
+font-size: 24px;
+color: orangered;
+margin-bottom: 10px;
+
+}
+.target > strong {
+    color: aqua;
+
+}
+.info__block {
+    flex-direction: column;
+  }
+.info .section__title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.comments__block {
+    display: flex;
+}
 .footer {
     padding-top: 20px;
     padding-bottom: 20px;
